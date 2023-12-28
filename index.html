@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryption/decryption</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <button class="active cesar">Cesar cipher</button>
+        <button class="hill">Hill</button>
+        <button class="onetimepad">OneTimePad</button>
+        <button class="playfair">PlayFair</button>
+        <button class="monoalphabetic">Monoalphabetic</button>
+        <button class="rail-fence">Rail Fence</button>
+      </div>
+    </nav>
+
+    <h1>Cesar cipher algorithm</h1>
+
+    <div class="choice">
+      <button class="active enc">Encrypt</button>
+      <button class="dec">Decrypt</button>
+    </div>
+    <form>
+      <div class="form-container">
+        <p class="error"></p>
+        <div class="pain-text">
+          <label class="text-name" for="plain-text">Plaintext</label>
+          <input class="input-text" type="text" id="plain-text" , />
+        </div>
+        <div class="key">
+          <label for="key">Key</label>
+          <input class="input-key" value="3" type="number" id="key" , />
+        </div>
+        <input type="submit" value="Encrypt" />
+      </div>
+    </form>
+    <div class="result">
+      <p class="final-result"></p>
+      <button class="cpy-btn">copy text</button>
+      <p class="copy-result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
