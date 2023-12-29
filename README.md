@@ -1,6 +1,6 @@
 # Encryption-Decryption-algorithms
 
-A project the applies encreption and decreption for text in 6 different algorithms <br>
+A project that applies encreption and decreption for text in 6 different algorithms <br>
 
 1-Cesar cipher Algorithm <br>
 2-Hill Algorithm <br>
