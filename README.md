@@ -40,9 +40,9 @@ This **JavaScript** project provides an interface to apply **encryption** and **
 
 2. Navigate to the Project directory:
 
-```bash
+   ```bash
    cd Encryption-Decryption-algorithms
 
-```
+   ```
 
 3. Open index.html in your browser to run the app
