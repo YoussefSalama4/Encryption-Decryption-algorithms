@@ -129,11 +129,11 @@ h1 {
 @media (max-width: 600px) {
   .form-container div {
     margin: 20px 0;
-    width: 300px;
+    width: 100%;
   }
 }
 .form-container div input {
-  width: 90%;
+  width: 100%;
   background-color: var(--second-bg-color);
   border: none;
   background-color: var(--bg-color);
@@ -204,4 +204,16 @@ input[type="submit"]:hover {
   background-color: var(--bg-color);
   opacity: 1;
   color: white;
+}
+
+@media (max-width: 470px) {
+  form label {
+    font-size: 12px;
+  }
+  .form-container div input {
+    font-size: 12px;
+  }
+  .form-container {
+    width: 90%;
+  }
 }
